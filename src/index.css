@@ -17,6 +17,7 @@ code {
 
 .nav-bar {
   list-style-type: none;
+  text-align: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -24,14 +25,15 @@ code {
 }
 
 .nav-bar li {
-  float: left;
+  float: none;
+  display: inline-block;
 }
 
 .nav-bar li a {
   display: block;
   color: rgb(22, 22, 22);
   text-align: center;
-  padding: 20px 25px;
+  padding: 20px 20px;
   text-decoration: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -50,4 +52,79 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Expert Gallery */
+
+.experts-gallery-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.expert-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.expert-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  position: relative;
+}
+
+/* Expert Panels */
+
+.expert img {
+  margin-top: 8px;
+  padding: 3px;
+  vertical-align: middle;
+  height: auto;
+  width: 180px;
+}
+
+.expert-name {
+  font-size: 1.2em;
+  font-weight: bold; 
+}
+
+.expert-job-title {
+  font-size: 0.9em;
+}
+
+.expert-description {
+  font-size: 0.75em;
+}
+
+.expert-rating {
+  font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(179, 179, 179);
+  font-size: 1.2em;
+}
+
+.footer li {
+  float: left;
+}
+
+.footer li p, .footer li button, .footer li input {
+  display: block;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
