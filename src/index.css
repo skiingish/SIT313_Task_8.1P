@@ -76,9 +76,14 @@ code {
   flex-wrap: wrap;
   padding: 40px;
   position: relative;
+  
 }
 
 /* Expert Panels */
+
+.expert {
+  width: 190px;
+}
 
 .expert img {
   margin-top: 8px;
