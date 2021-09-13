@@ -1,0 +1,35 @@
+/* Expert Cards */
+
+.expert {
+    width: 190px;
+}
+
+.expert img {
+    margin-top: 8px;
+    padding: 3px;
+    vertical-align: middle;
+    height: auto;
+    width: 180px;
+}
+
+.expert img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 200px;
+}
+
+.expert-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.expert-job-title {
+    font-size: 0.9em;
+}
+
+.expert-description {
+    font-size: 0.75em;
+}
+
+.expert-rating {
+    font-weight: bold;
+}
